@@ -77,6 +77,13 @@ class BMICalculatorScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              Image.asset(
+                'assets/image4.png',
+                width: 100,
+                height: 100,
+                fit: BoxFit.contain,
+              ),
+              SizedBox(height: 20),
               TextField(
                 controller: controller.heightController,
                 keyboardType: TextInputType.number,

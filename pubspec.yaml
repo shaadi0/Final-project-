@@ -64,6 +64,7 @@ flutter:
   assets:
     - assets/image1.jpg
     - assets/image2.jpg
+    - assets/image4.png
   
   # assets:
   #   - images/a_dot_burr.jpeg
